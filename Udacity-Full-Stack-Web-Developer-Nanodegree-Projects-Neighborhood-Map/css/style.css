@@ -1,0 +1,84 @@
+body, html{
+	font-family: "Helvetica Neue Bold", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+    width: 100%;
+	height: 100%;
+    margin: 0px;
+}
+
+.app {
+	width: 100%;
+	height: 100%;
+    box-sizing: border-box;
+}
+
+.side {
+    width: 20%;
+	height: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.title {
+    height: 5%;
+    width: 100%;
+    color:crimson;
+    background-color:deepskyblue;
+    text-align: center;
+    font-size: 28px;
+    box-sizing: border-box;
+}
+
+.search {
+	width: 100%;
+    height: 95%;
+    box-sizing: border-box;
+}
+
+
+.search-box {
+	height: 5%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.list {
+	height: 95%;
+    width: 100%;
+	background-color: deepskyblue;
+    overflow: auto;
+    box-sizing: border-box;
+}
+
+.map {
+	height: 95%;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.place {
+    margin: 10px;
+    padding: 10px;
+    background-color: deepskyblue;
+}
+
+.main {
+  height: 100%;
+  width: 80%;
+  display: inline-block;
+}
+
+.menu {
+    height: 5%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: deepskyblue;
+}
+
+.menu_part{
+    width: 35px;
+    height: 6px;
+    background-color: blueviolet;
+    margin-bottom: 6px;
+}

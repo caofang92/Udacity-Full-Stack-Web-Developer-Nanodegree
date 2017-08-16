@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-md-6">
+            <img class="title-logo" src="images/logo.jpg" alt="My logo">
+        </div>
+          
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="title-super text-thin">Fang Cao</h1>
+          <h4>Full Stack Web Developer</h4>
+        </div>
+      </header>
+        
+      <div class="row">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+        
+      <section class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="images/main.jpg" alt="Main image">
+        </div>
+      </section>
+        
+      <section class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">Featured Work</h2>
+        </div>
+      </section>
+        
+      <main class="row text-center">
+        <article class="col-md-4">
+          <img class="img-responsive" src="images/project1.jpg" data-toggle="modal" data-target="#project1" alt="Project1 image">
+          <h3 class="text-uppercase">Android Development</h3>
+          <p><a href="https://github.com/FangCao/AndroidDevelopment" target="_blank">https://github.com/FangCao/AndroidDevelopment</a></p>
+        </article>
+          
+        <article class="col-md-4">
+          <img class="img-responsive" src="images/project2.jpg" data-toggle="modal" data-target="#project2" alt="Project2 image">
+          <h3 class="text-uppercase">Data Mining</h3>
+          <p><a href="https://github.com/FangCao/DataMining" target="_blank">https://github.com/FangCao/DataMining</a></p>
+        </article>
+          
+        <article class="col-md-4">
+          <img class="img-responsive" src="images/project3.jpg" data-toggle="modal" data-target="#project3" alt="Project3 image">
+          <h3 class="text-uppercase">Web Development</h3>
+            <p><a href="https://github.com/FangCao/WebDevelopment" target="_blank">https://github.com/FangCao/WebDevelopment</a></p>
+        </article>
+      </main>
+    </div>
+      
+    <!-- When click on the image of each project, a window will pop up to introduce the project -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel1">Favorite App Page</h4>
+          </div>
+            
+          <div class="modal-body">
+            <img class="img-responsive" src="images/project1.jpg" alt="Project1 image">
+              This was my first project in this class. I learned a lot about Android Development.
+          </div>
+            
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel2">Favorite App Page</h4>
+          </div>
+            
+          <div class="modal-body">
+            <img class="img-responsive" src="images/project2.jpg" alt="Project2 image">
+              This was my first project in this class. I learned a lot about Data Mining.
+          </div>
+            
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
+          </div>
+            
+          <div class="modal-body">
+            <img class="img-responsive" src="images/project3.jpg" alt="Project3 image">
+              This was my first project in this class. I learned a lot about Web Development.
+          </div>
+            
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+  </body>
+</html>

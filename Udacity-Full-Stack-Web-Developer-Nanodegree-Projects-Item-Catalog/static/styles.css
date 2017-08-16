@@ -1,0 +1,158 @@
+*{
+	font-family: "Helvetica Neue Bold", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+.flash{
+    background-color: chartreuse;
+    text-align: center;
+}
+
+
+.top-menu {
+	padding-top: 30px;
+	padding-bottom: 30px;
+    background-color:deepskyblue;
+}
+
+a {
+ 	font-size: 14px;
+ 	color:black;
+ 	line-height: 17px;
+    padding-right: 20px;
+ }
+
+h2 {
+	font-size: 24px;
+	color:red;
+	line-height: 29px;
+}
+
+h3 {
+	font-size: 18px;
+    color:blue;
+	line-height: 23px;
+}
+
+.style1{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color:beige;
+}
+
+.style2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:darksalmon;
+}
+
+
+.style3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:cadetblue;
+}
+
+.style4{
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+
+.btn {
+	border-width: 2px;
+}
+
+.btn:hover {
+	color: red;
+    border-color: red;
+}
+
+.glyphicon {
+	margin-right: 10px;
+}
+
+
+.style2:hover {
+ 	background-color: #e1e17f;
+}
+
+.style3:hover {
+ 	background-color: #e1e17f;
+}
+
+
+.menu-item {
+	background: #F0F0F0;
+	padding: 20px;
+	margin: 20px;
+	margin-left: -20px;
+}
+
+
+strong {
+ 	font-size: 16px;
+ 	color: #7B7573;
+ 	line-height: 24px;
+}
+
+.bottom{
+    height: 75px;
+}
+
+
+.creator {
+	padding-right: 20px;
+	margin-top: -20px;
+	float:right;
+}
+.creator img {
+	width: 100px;
+	border-radius: 50%;
+}
+.creator figcaption {
+	font-size: 14px;
+	color: #7B7573;
+	font-weight: 400;
+	margin-top: -20px;
+}
+
+
+h1 {
+	font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	color: #51453B;
+	line-height: 60px;
+	font-weight: 300;
+}
+
+p {
+ 	font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+ 	font-size: 16px;
+ 	color: #7B7573;
+ 	line-height: 24px;
+ 	font-weight: 400;
+ }
+
+ 
+.top-menu p {
+	margin-bottom: 0;
+	line-height: 16px;
+}
+.top-menu a {
+	margin-bottom: 0;
+	line-height: 16px;
+	font-size: 16px;
+	color: #7B7573;
+	font-weight: 400;
+}
+
+
+.description {
+    font-size: 30px;
+    text-align: center;
+}
+
+.space{
+    height: 25px;
+}
+

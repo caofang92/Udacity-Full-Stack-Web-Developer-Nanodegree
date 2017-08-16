@@ -1,0 +1,49 @@
+{% extends "main.html" %}
+{% block content %}
+{% include "header.html" %}
+	
+
+<div class="row banner menu">
+  <div class="col-md-12 text-center">
+     <h1>   {{ category.name }} ({{items.count() }} items)  </h1>
+  </div>
+</div>
+
+
+<div class="row flash">
+     {% with messages = get_flashed_messages() %}
+        {% if messages %}
+           <ul>
+				{% for message in messages %}
+				   <li> <strong> {{ message }} </strong> </li>
+				{% endfor %}
+           </ul>
+        {% endif %}
+     {% endwith %}
+</div>
+
+
+<div class="row  style4">
+     <div class="col-md-12 text-center">
+         <a href="{{url_for('newItem', category_name = category.name )}}">
+				<button class="btn btn-default">
+					<span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span>Add Item
+				</button>
+         </a>
+     </div>
+</div>
+	
+
+ {% if items !=[] %}	
+     {% for i in items %}
+         <div class="col-md-1"></div>
+         <div class="col-md-3">
+             <div class="menu-item">
+				 <a href = "{{url_for('showItem', category_name = category.name, item_name = i.name)}}">
+				     <h3>{{i.name}}</h3>
+                 </a>
+             </div>	
+         </div>
+     {% endfor %}
+{% endif %}
+{% endblock %}
